@@ -5,7 +5,9 @@ The available instructions are: ADD, ADDI, SUB, SUBI, LDUR, STUR, LSL, CBZ, CBNZ
 The included instruction file populates registers then calls a function that completes what would roughly translate to the following C code:
 
 if (n > 0) 
+
   z = z << 2;
+ 
   n--
 
 return z;
